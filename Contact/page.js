@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 export default function Contact() {
   return (
@@ -5,4 +6,12 @@ export default function Contact() {
       <h1>Hello Page</h1>
     </div>
   );
+=======
+export const Contact = ()=> {
+    return <>
+    <div>
+        Hi
+    </div>
+    </>
+>>>>>>> d26b1d9 (Update)
 }
