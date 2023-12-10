@@ -4,8 +4,8 @@ import { HomePage } from '@/Home/pages'
 
 export default function Home() {
   return (
-   <>
-   <HomePage/>
-   </>
+   <main>
+    This us
+   </main>
   )
 }
