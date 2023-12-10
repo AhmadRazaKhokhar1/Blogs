@@ -26,6 +26,8 @@ export const HomePage =()=> {
                 return <SmallBlog
                  title={e.title}
                  shortDesc={e.shortDesc}
+                 img={e.imgUrl}
+                 category={e.category}
                 />
             
             })
