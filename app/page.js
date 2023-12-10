@@ -5,7 +5,7 @@ import { HomePage } from '@/Home/pages'
 
 export default function Home() {
   return (
-   <main>
+   <main style={{minHeight:"80vh"}}>
     <HomePage/>
    </main>
   )
