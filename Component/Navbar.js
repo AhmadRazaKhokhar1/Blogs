@@ -1,5 +1,5 @@
-export const Navbar=()=>{
-    return
+export const Navbar = () => {
+    return(
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
@@ -27,4 +27,5 @@ export const Navbar=()=>{
   </div>
 </nav>
     </>
+    )
 }
