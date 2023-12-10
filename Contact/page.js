@@ -1,7 +1,9 @@
+import { HomePage } from "@/Home/pages"
+
 export const Contact = ()=> {
     return <>
     <div>
-        Hi
+        <HomePage />
     </div>
     </>
 }
