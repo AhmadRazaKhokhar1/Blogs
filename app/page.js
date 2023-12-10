@@ -7,6 +7,9 @@ export default function Home() {
   return (
    <main>
     <HomePage/>
+    <div>
+      Hello World
+    </div>
    </main>
   )
 }
