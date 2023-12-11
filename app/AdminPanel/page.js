@@ -13,15 +13,24 @@ export default function AdminPanel() {
     e.preventDefault();
 
     try {
+   
       const postResponse = await axios.post('http://localhost:8000/api/blog/post', {
-          title,
-          shortDescription,
-          longDescription,
-          imageUrl,
-          category,
-          author
+          title:title,
+          shortDescription:shortDescription,
+          longDescription:longDescription,
+          imageUrl:imageUrl,
+          category:category,
+          author:author
       });
-      console.log(postResponse)
+      // console.log(postResponse);
+
+      // reseting form fields
+      setTitle('')
+      setShortDescription('')
+      setLongDescription('')
+      setCategory('')
+      setAuhtor('')
+      setImageUrl('')
     } catch (error) {
       console.log(`There was an Error in postBlog function ::> ${error}`)
     }
