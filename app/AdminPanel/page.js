@@ -28,11 +28,11 @@ export default function AdminPanel() {
   }
   return (
     <div>
-      <h1 className='fs-2 text-info text-center fw-bold'>Admin Panel</h1>
+      <h1 className='fs-2 text-info text-center fw-bold my-2'>Admin Panel</h1>
       <br/>
       <form
        onSubmit={postBlog}
-       className='d-flex flex-column mx-auto shadow p-5 align-items-center w-75 px-2 rounded-lg mt-5'
+       className='d-flex flex-column mx-auto shadow p-5 align-items-center w-75 rounded-lg mt-3'
        >
         <h1 className='fs-3 text-info'>Upload Your Blogs Here</h1>
      <input 
@@ -84,10 +84,10 @@ export default function AdminPanel() {
      placeholder="Enter Author's name" 
      onChange={(e)=>setAuhtor(e.target.value)} 
      value={author}/>
-    
+    <br/>
     <button
     type='submit'
-    className='btn btn-info w-25 mx-auto text-info '
+    className='btn btn-info w-25 mx-auto text-info'
 
     >
       Add Post
