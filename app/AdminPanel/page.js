@@ -1,7 +1,7 @@
 'use client'
 import axios from 'axios';
 import { TextField, Button } from '@mui/material';
-import SendIcon from '@mui/icons-material'
+// import SendIcon from '@mui/icons-material'
 import { useState } from 'react';
 export default function AdminPanel() {
   const [title, setTitle] = useState('');
@@ -54,7 +54,7 @@ export default function AdminPanel() {
       value={title} 
       onChange={(e)=>setTitle(e.target.value)} 
       />
-      <Button variant="contained" color='success' endIcon={<SendIcon />}  onClick={postBlog}>
+      <Button variant="contained" color='success' }  onClick={postBlog}>
           Post Blog Now
       </Button>
     </div>
