@@ -28,10 +28,13 @@ export const HomePage =()=> {
             data.map((e)=>{
                 return <SmallBlog
                  title={e.title}
-                 shortDesc={e.shortDescription}
-                 img={e.imageUrl}
+                 shortDescription={e.shortDescription}
+                 longDescription={e.longDescription}
+                 imageUrl={e.imageUrl}
                  category={e.category}
+                 author={e.author}
                  date={e.createdAt}
+                 key={e._id}
                 />
             
             })

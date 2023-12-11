@@ -50,7 +50,8 @@ export default function AdminPanel() {
      id="inputPassword2" 
      placeholder="Enter your title" 
      onChange={(e)=>setTitle(e.target.value)} 
-     value={title}/>
+     value={title}
+     />
      <textarea
      type="text" 
      className="form-control w-75 rounded my-2" 

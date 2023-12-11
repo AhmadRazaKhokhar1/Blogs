@@ -42,7 +42,7 @@ fetchBlogs:async(req, res)=>{
         res.status(200).send({
             success:true,
             message:"Data fetched successfully!",
-            data:data,
+            data,
         })
     } catch (error) {
         console.log(`There was an error in fetchBlog ::> ${error}`);
