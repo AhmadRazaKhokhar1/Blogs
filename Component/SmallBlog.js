@@ -6,7 +6,7 @@ export default function SmallBlog({title, shortDescription, imageUrl, category, 
     <>
 <div class="col-md-6 mb-4">
     <div class="card">
-      <Image  src={imageUrl} class="card-img-top" alt={ title} width={30} height={20}/>
+      <img  src={imageUrl} class="card-img-top img-fluid" alt={ title} />
         <div class="card-body">
             <h5 class="card-title">{title}</h5>
             <p class="card-text">{shortDescription}</p>
